@@ -1,0 +1,314 @@
+*{
+    font-family: "Montserrat", sans-serif ;
+    margin:0 ;
+    color: white;
+   
+}
+
+.main{
+    display:flex;
+    height: 100vh;
+    background-color: black;
+
+}
+
+.sidebar{
+    background-color: black;
+    width: 340px;
+    border-radius: 1rem;
+    text-decoration: none;
+
+    
+}
+
+.main-content{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+
+    
+}
+
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+    margin: 0.5rem;
+
+}
+
+.nav-option{
+    line-height: 2.5rem;
+    opacity: 0.7;
+}
+
+.nav-option:hover{
+    opacity:1;
+
+}
+
+.nav-option i{
+    font-size: 1.25rem;
+}
+
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin: 0.5rem;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    color: white;
+    font-size: 1.25rem;
+    opacity: 0.7;
+    margin-right: 1rem;
+    
+}
+
+.icons i{
+    opacity: 0.7;
+    margin-right: 1rem;
+    margin-top: 0.6rem;
+}
+
+.icons i:hover{
+    opacity: 1;
+}
+
+
+.lib-option img{
+    height: 1.25rem;
+    line-height: 2.5rem;
+    margin-left: 1rem;
+
+    
+}
+
+.button_1 button{
+    color: black;
+    display: flex;
+    margin-left: 1rem;
+    position: relative;
+    margin-top: 1rem;;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.button_1 button:hover{
+    padding: 0.5rem 1rem;
+
+}
+
+
+.box{
+    margin: 0.5rem;
+    border-radius: 1rem;
+    background-color: #232323;
+    padding-bottom: 1rem;
+}
+
+.box pre{
+    margin: 1rem;
+    padding-top: 0.5rem;
+}
+
+.box1{
+    margin: 0.5rem;
+    border-radius: 1rem;
+    background-color: #232323;
+    padding-bottom: 1rem;
+    font-size: 13px;
+    
+}
+
+.box1 pre{
+    margin: 1rem;
+    padding-top: 0.5rem;
+    width:fit-content;
+}
+
+.sticky-nav{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.button_2 button{
+    color: black;
+    display: flex;
+    position: relative;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+    left: 30rem;
+    
+}
+
+.button_3 button{
+    border-radius: 1rem;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 30rem;
+}
+
+
+.button_2 button:hover{
+    padding: 0.5rem 1rem;
+
+}
+
+.button_3 button:hover{
+    padding: 0.5rem 1rem;
+
+}
+
+.card{
+    background-color: #232323;
+    width:150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem
+}
+
+.card-container{
+    display: flex;
+
+}
+
+.card img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title{
+    font-weight: 600;
+
+}
+.card-info{
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+.cards{
+    margin-left: 3rem;
+
+}
+
+.cards h2{
+    margin-top: 1rem;
+    padding: 1rem 0;
+}
+
+.music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album{
+    width: 25%;
+}
+
+.player{
+    width: 55%;
+}
+
+.controls{
+    width: 25%;
+}
+
+.player-controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-control-icon{
+    height: 1rem;
+    margin-right: 2rem;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.player-control-icon:hover{
+    
+    opacity: 1;
+
+}
+
+.playback-bar{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.progress-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.25rem;
+}
+
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    background-color:#1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+}
